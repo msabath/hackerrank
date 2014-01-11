@@ -1,10 +1,7 @@
 <?php
 /* Head ends here */
 function lonelyinteger( $a) {
-
-      
-      return array_search(1, array_count_values($a));
-          
+  return array_search(1, array_count_values($a));
 }
 /* Tail starts here */
 $__fp = fopen("php://stdin", "r");
